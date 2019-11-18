@@ -1,0 +1,498 @@
+
+body {
+	text-align: center;
+	margin: 0;
+	font-family: 'Playfair Display SC', 'Mr Dafoe', serif;
+}
+header {
+	background-image: url(https://cdn.pixabay.com/photo/2019/11/08/11/56/cat-4611189_1280.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav a{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	margin: 0 40px 0 40px;
+}
+.nav {
+	transition: color 300ms ease;
+}
+nav a:hover .nav{
+	color: rgb(204,215,89);
+}
+.font {
+	font-family: 'sans-serif';
+}
+.logo {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+.logo img {
+	width: 60px;
+	height: 60px;
+	margin: 0;
+}
+.navLeft {
+	margin: 0;
+	line-height: 14px;
+	padding: 10px 0;
+}
+#navLeft {
+	margin-right: 50px;
+}
+.navRight {
+	margin: 0;
+	line-height: 16px;
+}
+#navRight {
+	margin-left: 50px;
+}
+.catScarf {
+	font-size: 12px;
+}
+
+.cart a {
+	width: 20px;
+	height: 20px;
+	margin: 0;
+	position: absolute;
+	top: 55px;
+	right: 50px;
+}
+.cart img {
+	width: 20px;
+	height: 20px;
+}
+#collection {
+	font-style: italic;
+	color: white;
+	font-size: 100px;
+	margin: 0;
+	margin: 120px 0 0 0;
+
+}
+#line {
+	height: 1px;
+	background-color: white;
+	border: 0;
+	width: 1000px;
+}
+#titlebar {
+	width: 800px;
+}
+#coming-soon {
+	color: white;
+	font-size: 40px;
+	font-style: italic;
+	text-decoration: none;
+	transition: color 300ms ease;
+	font-family: 'Mr Dafoe';
+}
+#coming-soon:hover {
+	color: rgb(204,215,89);
+}
+
+
+
+/* Sections */
+
+
+h1 {
+	font-size: 100px;
+	font-style: italic;
+	margin: 0;
+}
+h3 {
+	margin: 40px 0 0 0;
+}
+section.collections {
+	
+	color: black;
+	margin-bottom: 100px;
+}
+.style {
+	margin-bottom: 40px;
+}
+.style h4 {
+	margin: 60px 0 0 0;
+}
+.style hr {
+	height: 1px;
+	background-color: black;
+	border: 0;
+	width: 600px;
+}
+.scarves {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.nameScarf {
+	width: 500px;
+	height: 500px;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.scarfLine {
+	width: 100px;
+}
+
+
+
+/* Hover styles */
+
+#scarf1 {
+	background-image: url(http://www.pngall.com/wp-content/uploads/2018/03/Scarf.png);
+}
+#scarfDescribe1 {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+	height: 300px;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 100%;
+	
+}
+#scarf1:hover #scarfDescribe1 {
+	display: flex;
+
+
+}
+#scarf2 {
+	background-image: url(http://www.pngall.com/wp-content/uploads/2018/03/Scarf.png);
+}
+#scarfDescribe2 {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+	height: 300px;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 100%;
+}
+#scarf2:hover #scarfDescribe2 {
+	display: flex;
+}
+#scarf3 {
+	background-image: url(http://www.pngall.com/wp-content/uploads/2018/03/Scarf.png);
+}
+#scarfDescribe3 {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+	height: 300px;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 100%;
+}
+#scarf3:hover #scarfDescribe3 {
+	display: flex;
+}
+#scarf4 {
+	background-image: url(http://www.pngall.com/wp-content/uploads/2018/03/Scarf.png);
+}
+#scarfDescribe4 {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+	height: 300px;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 100%;
+}
+#scarf4:hover #scarfDescribe4 {
+	display: flex;
+}
+#scarf5 {
+	background-image: url(http://www.pngall.com/wp-content/uploads/2018/03/Scarf.png);
+}
+#scarfDescribe5 {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+	height: 300px;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 100%;
+}
+#scarf5:hover #scarfDescribe5 {
+	display: flex;
+}
+#scarf6 {
+	background-image: url(http://www.pngall.com/wp-content/uploads/2018/03/Scarf.png);
+}
+#scarfDescribe6 {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+	height: 300px;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 100%;
+}
+#scarf6:hover #scarfDescribe6 {
+	display: flex;
+}
+#scarf7 {
+	background-image: url(http://www.pngall.com/wp-content/uploads/2018/03/Scarf.png);
+}
+#scarfDescribe7 {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+	height: 300px;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 100%;
+}
+#scarf7:hover #scarfDescribe7 {
+	display: flex;
+}
+#scarf8 {
+	background-image: url(http://www.pngall.com/wp-content/uploads/2018/03/Scarf.png);
+}
+#scarfDescribe8 {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+	height: 300px;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 100%;
+}
+#scarf8:hover #scarfDescribe8 {
+	display: flex;
+}
+#scarf9 {
+	background-image: url(http://www.pngall.com/wp-content/uploads/2018/03/Scarf.png);
+}
+#scarfDescribe9 {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+	height: 300px;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 100%;
+}
+#scarf9:hover #scarfDescribe9 {
+	display: flex;
+}
+#scarf10 {
+	background-image: url(http://www.pngall.com/wp-content/uploads/2018/03/Scarf.png);
+}
+#scarfDescribe10 {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+	height: 300px;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 100%;
+}
+#scarf10:hover #scarfDescribe10 {
+	display: flex;
+}
+#scarf11 {
+	background-image: url(http://www.pngall.com/wp-content/uploads/2018/03/Scarf.png);
+}
+#scarfDescribe11 {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+	height: 300px;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 100%;
+}
+#scarf11:hover #scarfDescribe11 {
+	display: flex;
+}
+
+
+.scarfDescribe a {
+	text-decoration: none;
+	font-family: 'Mr Dafoe';
+	font-size: 30px;
+}
+.scarfDescribe hr {
+	width: 250px;
+	background-color: rgba(256,256,256,.5);
+	height: 1px;
+	border: 0;
+}
+.scarfDescribe h3 {
+	color: white;
+	text-decoration: none;
+	transition: color 300ms ease;
+	margin-top: 5px;
+}
+.scarfDescribe h3:hover {
+	color: rgb(204,215,89);
+}
+
+
+
+
+section#bottom {
+	height: 783px;
+	margin-bottom: 200px;
+}
+
+
+.bgPhoto1 {
+	background-image: url(https://cdn.pixabay.com/photo/2016/06/25/16/23/crocheting-1479217_1280.jpg);
+	height: 500px;
+}
+
+
+section.description {
+	color: black;
+	background-color: rgb(244,239,224);
+	padding-bottom: 200px;
+}
+.fashion {
+	padding-top: 60px;
+}
+.fashion h4 {
+	margin: 0;
+}
+.fashion hr {
+	width: 800px;
+	margin-bottom: 20px;
+	height: 1px;
+	background-color: black;
+	border: 0;
+}
+.fashion h3 {
+	margin: 30px 380px 50px 380px;
+	line-height: 30px;
+}
+
+.typeImage {
+	display: flex;
+	flex-direction: row;
+}
+.text {
+	display: flex;
+	flex-direction: row;
+}
+.facts h2 {
+	font-size: 40px;
+	margin-bottom: 0;
+}
+.facts hr {
+	width: 200px;
+	margin-bottom: 20px;
+	height: 1px;
+	background-color: black;
+	border: 0;
+}
+.facts img {
+	width: 200px;
+	height: 200px;
+}
+.facts p {
+	font-size: 18px;
+	margin: 0 50px;
+}
+
+.bgPhoto2 {
+	background-image: url(https://cdn.pixabay.com/photo/2019/10/31/05/23/fashion-4590997_1280.jpg);
+	height: 300px;
+	background-size: cover;
+
+}
+
+
+/* Footer styles */
+
+footer {
+	background-color: rgb(212,166,78);
+}
+.logo a {
+	text-decoration: none;
+	color: white;
+	transition: color 300ms ease;
+}
+.logo a:hover {
+	color: rgb(204,215,89);
+}
+.logo a img {
+	margin: 45px 0 20px 0;
+}
+.socialMedia img {
+	width: 20px;
+	height: 20px;
+	padding: 4px;
+	border: 1px solid white;
+	border-radius: 100%;
+	background-color: white;
+	margin: 45px 30px 0 30px;
+	transition: background-color 300ms ease, border 300ms ease;
+}
+.socialMedia img:hover {
+	background-color: red;
+	border: 1px solid red;
+
+}
+footer h3 {
+	color: white;
+	margin-bottom: 40px;
+}
+.bottom {
+	background-color: rgb(122,94,42);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	nav {
+		background-color: white;
+		color: black;
+	}
+	.navLeft {
+		display: none;
+	}
+	.navRight {
+		display: none;
+	}
+	.logo {
+		flex-direction: row;
+	}
+}
+
+
+
+
+
+
+
+
+
